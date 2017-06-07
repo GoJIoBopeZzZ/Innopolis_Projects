@@ -1,5 +1,7 @@
 import java.util.Formatter;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.WeakHashMap;
 
 /**
  * Created by _red_ on 07.06.17.
@@ -23,5 +25,8 @@ public class Main {
         System.out.println("\n" + newList.size());
 
         System.out.println(newList.contains(55));
+
+        Boolean b = new Boolean("Hellow");
+        System.out.println(b);
     }
 }
